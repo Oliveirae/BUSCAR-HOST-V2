@@ -22,7 +22,7 @@ pkg install wget -y
 
 pkg install nano
 
-pkg install lynx
+pkg install lynx -y
 
 apt-get install curl
 
