@@ -8,15 +8,17 @@
 
 PASSO 1: Instale o app TERMUX
 
-PASSO 2: Copie e cole os comandos (esteja conectado a internet quando abrir o app pela primeira vez, e durante a instalação dos comandos abaixo)
+PASSO 2: Copie e cole os comandos (esteja conectado a internet quando abrir o app pela primeira vez, e durante a instalação dos comandos abaixo)(Se der erro, copie e cole linha por linha)
 
 termux-setup-storage
 
-pkg install nmap -y
+pkg install curl -y
 
-pkg install wget
+pkg install wget -y
 
-pkg install curl
+pkg install nano
+
+apt update && apt upgrade
 
 pkg install git
 
