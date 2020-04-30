@@ -18,7 +18,7 @@ pkg install git -y
 
 pkg install curl
 
-pkg install wget
+pkg install wget -y
 
 pkg install nano
 
@@ -28,7 +28,7 @@ pkg install python2
 
 apt-get install curl
 
-apt-get install wget
+apt-get install wget -y
 
 apt-get install nmap
 
