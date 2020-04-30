@@ -14,7 +14,7 @@ termux-setup-storage
 
 apt update && apt upgrade
 
-pkg install git
+pkg install git -y
 
 pkg install curl
 
