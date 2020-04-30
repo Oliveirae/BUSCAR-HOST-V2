@@ -47,7 +47,6 @@ bash BUSCADOR.sh
 OBS: Use a opção A para abrir as configurações do painel, e selecione a opção 2 para instalar os programas necessarios para o uso correto do painel, e sempre confirme com Y.
 
 
-
 OBS: Para abrir o menu caso você precise novamente, use o comando:
 
 cd BUSCAR-HOST-V2
