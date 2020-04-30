@@ -1,9 +1,0 @@
-#!bin/bash
-echo ""
-echo -ne "\e[1;32mRASTREAR IP: ";
-read IP
-echo ""
-curl ipinfo.io/$IP
-echo ""
-echo ""
-echo -e "\e[1;31mClique em ENTER para voltar ao menu...\e[0m"
