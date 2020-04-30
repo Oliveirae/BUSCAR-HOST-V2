@@ -24,15 +24,11 @@ pkg install nano
 
 pkg install lynx
 
-pkg install python2
-
 apt-get install curl
 
 apt-get install wget -y
 
 apt-get install nmap
-
-pip install --upgrade pip
 
 pkg install nmap -y
 
