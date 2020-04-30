@@ -20,7 +20,7 @@ pkg install curl
 
 pkg install git
 
-git clone 
+git clone https://github.com/Oliveirae/BUSCAR-HOST-V2.git
 
 cd BUSCAR-HOST-V2
 
