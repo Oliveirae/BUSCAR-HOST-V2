@@ -14,29 +14,15 @@ termux-setup-storage
 
 apt update && apt upgrade
 
-pkg install git -y
-
-pkg install curl
-
-pkg install wget -y
-
-pkg install nano
-
-pkg install lynx -y
-
-apt-get install curl
-
-apt-get install wget -y
-
-apt-get install nmap
-
-pkg install nmap -y
+pkg install git
 
 git clone https://github.com/Oliveirae/BUSCAR-HOST-V2.git
 
 cd BUSCAR-HOST-V2
 
 bash BUSCADOR.sh
+
+OBS: Use a opção A para abrir as configurações do painel, e selecione a opção 2 para instalar os programas necessarios para o uso correto do painel, e sempre confirme com Y.
 
 
 
