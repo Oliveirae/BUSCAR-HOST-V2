@@ -12,7 +12,7 @@ PASSO 2: Copie e cole os comandos (esteja conectado a internet quando abrir o ap
 
 termux-setup-storage
 
-pkg install nmap
+pkg install nmap -y
 
 pkg install wget
 
