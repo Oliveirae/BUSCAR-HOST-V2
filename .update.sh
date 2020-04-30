@@ -39,17 +39,18 @@ echo -e "\e[1;32mINSTALANDO:"
 echo ""
 sleep 2
 termux-setup-storage
-apt update && apt upgrade
-pkg install git
-pkg install curl
-pkg install wget
-pkg install nano
-pkg install lynx
-pkg install python2
-apt-get install curl
-apt-get install wget
-apt-get install nmap
-pip install --upgrade pip
+apt update && apt upgrade -y
+pkg install git -y
+pkg install curl -y
+pkg install wget -y
+pkg install nano -y
+pkg install lynx -y
+pkg install python2 -y
+pkg install python3 -y
+apt-get install curl -y
+apt-get install wget -y
+apt-get install nmap -y
+pip install --upgrade pip -y
 pkg install nmap -y
 echo ""
 echo -e "\e[1;32mConcluido!"
